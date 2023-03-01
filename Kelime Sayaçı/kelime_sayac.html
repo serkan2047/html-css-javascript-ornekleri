@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>
+
+</title>    
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+    
+<body>
+    <h2>KELİME BULUCU</h2>
+    <div class="container">
+       <textarea id="text" class="text" name="w3review" rows="10" cols="100" placeholder="YAZMAYA BAŞLAYIN">
+
+</textarea>
+        <button class="buton">HESAPLA</button>
+    </div>
+    
+    <p >kelime sayısı =><span class="result" id="result"></span> </p>
+</body>    
+    
+    <script>
+    
+        const textArea = document.getElementById('text');
+textArea.addEventListener('keydown', processWordCount );
+
+
+function processWordCount(){
+	const textArea = document.getElementById('text');
+	let numWords = textArea.value.split(' ').length;
+	const wordCountSpan = document.getElementById('result');
+	wordCountSpan.innerHTML = numWords;
+}
+
+    
+    </script>
+    
+    
+</html>

@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>
+
+</title>    
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+    
+<body>
+   <div class="container">
+  <h1 id="baslik">GERİ SAYIM </h1>
+    <div id="countdown">
+      <ul>
+        <li><span id="gun"></span>Gün</li>
+        <li><span id="saat"></span>Saat</li>
+        <li><span id="dakika"></span>Dakika</li>
+        <li><span id="saniye"></span>Saniye</li>
+      </ul>
+    </div>
+    <div id="content" class="emoji">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+</div>
+    
+    <script>
+    
+        (function () {
+    const saniye = 1000,
+    dakika = saniye * 60,
+    saat = dakika * 60,
+    gun = saat * 24;
+
+  
+            
+  let today = new Date(),
+    dd = String(today.getDate()).padStart(2, "0"),
+    mm = String(today.getMonth() + 1).padStart(2, "0"),
+    yyyy = today.getFullYear(),
+    nextYear = yyyy + 1,
+    dayMonth = "01/12/",
+    birthday = dayMonth + yyyy;
+
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  
+
+  const countDown = new Date(birthday).getTime(),
+        
+        
+     x = setInterval(function () {
+      const now = new Date().getTime(),
+        mesafe = countDown - now;
+
+      (document.getElementById("gun").innerText = Math.floor(mesafe / gun)),
+        (document.getElementById("saat").innerText = Math.floor(
+          (mesafe % gun) / saat
+        )),
+        (document.getElementById("dakika").innerText = Math.floor(
+          (mesafe % saat) / dakika
+        )),
+        (document.getElementById("saniye").innerText = Math.floor(
+          (mesafe % dakika) / saniye
+        ));
+
+    
+      if (mesafe < 0) {
+        document.getElementById("baslik").innerText = "geri sayım bitti";
+        document.getElementById("countdown").style.display = "none";
+        document.getElementById("content").style.display = "block";
+        clearInterval(x);
+      }
+     
+    }, 0);
+})();
+
+    
+    </script>
+    
+    
+    
+</body>    
+    
+
+</html>

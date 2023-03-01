@@ -1,0 +1,319 @@
+body{
+    background-color: coral;
+}
+
+
+.kutu1{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color:  cadetblue;
+    background-color:crimson;
+
+}
+
+.kutu1:hover{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:45px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color:aquamarine;
+    background-color:pink;
+
+}
+
+
+.kutu2{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+.kutu3{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color:  cadetblue;
+    background-color:crimson;
+}
+
+
+.kutu4{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+  color:  cadetblue;
+    background-color:crimson;
+}
+
+.kutu4:hover{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:25px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+  color:darkgreen;
+    background-color:antiquewhite;
+}
+
+
+.kutu5{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+  color:  cadetblue;
+    background-color:crimson;
+}
+
+
+.kutu5:hover{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:25px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+  color:darkgreen;
+    background-color:antiquewhite;
+}
+
+
+
+
+
+.kutu6{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+.kutu7{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+.kutu8{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+.kutu2{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+.kutu9{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+.kutu10{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+
+}
+
+
+
+
+
+.anakutu{
+    width: 800px;
+    height: 700px;
+    background-color:chocolate;
+    margin-left: 260px;
+        
+    
+    
+}
+
+
+.logo img{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+      color:  cadetblue;
+    background-color:crimson;
+    opacity: 0.6;
+
+}
+
+.logo2 img{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color:  cadetblue;
+     opacity: 0.6;
+    
+
+}
+
+
+.logo2 img:hover{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size:30px;
+    font-family: fantasy;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color:  cadetblue;
+     opacity: 1;
+    
+
+}
+
+
+.conteiner{
+    
+    margin-top: -300px;
+    
+}
+
+

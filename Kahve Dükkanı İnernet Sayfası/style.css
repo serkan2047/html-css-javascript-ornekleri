@@ -1,0 +1,265 @@
+body{
+    background-color: 
+#A47551;
+}
+
+
+.content{
+    width: 1024px;
+    height: 885px;
+    background-color: #E4D4C8;
+    margin: auto;
+    position: relative;
+}
+
+
+.nav{
+    width: 1014px;
+    margin: auto;
+    height: 60px;
+    background-color: #523A28;
+    margin-top: 20px;
+    
+}
+
+
+.slider{
+    width: 1014px;
+    margin: auto;
+    height: 350px;
+    background-color: #523A28;
+    margin-top: 5px;
+    padding-left: -10px;
+    
+}
+
+.upbox{
+    width: 1014px;
+    margin: auto;
+    height: 160px;
+    
+    padding-left: -10px;
+    margin-top: 5px;
+}
+
+
+.downbox{
+    width: 1014px;
+    margin: auto;
+    height: 160px;
+    
+    padding-left: -10px;
+    margin-top: 5px;
+}
+
+.b1{
+    width: 160px;
+    margin: auto;
+    height: 160px;
+    background-color: #523A28;
+    float: left;
+    margin-left: 25px;
+}
+
+.b2{
+    width: 160px;
+    margin: auto;
+    height: 160px;
+    background-color: #523A28;
+    float: left;
+    margin-left: 100px;
+}
+
+.b3{
+    width: 160px;
+    margin: auto;
+    height: 160px;
+    background-color: #523A28;
+    float: left;
+    margin-left: 100px;
+}
+
+.b4{
+    width: 160px;
+    margin: auto;
+    height: 160px;
+    background-color: #523A28;
+    margin-left: 800px;
+}
+
+
+.b5{
+    width: 160px;
+    margin: auto;
+    height: 160px;
+    background-color: #523A28;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.b6{
+    width: 160px;
+    height: 160px;
+    background-color: #523A28;
+    margin-left: 285px;
+    margin-top: -160px;
+}
+
+.b7{
+    width: 160px;
+    height: 160px;
+    background-color: #523A28;
+    margin-left: 545px;
+    margin-top: -160px;
+}
+
+.b8{
+   
+    width: 160px;
+    height: 160px;
+    background-color: #523A28;
+    margin-left: 800px;
+    margin-top: -160px;
+}
+
+.footer{
+    
+    width: 1014px;
+    margin: auto;
+    height: 120px;
+    background-color: #523A28;
+    padding-left: -10px;
+    margin-top: 5px;
+
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.nav li{
+    float: left;
+display: inherit;
+margin-top: 20px;
+}
+
+.nav li a{
+     background-color:#523A28;
+    color:aliceblue;
+    font-size:17px;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: -10px;
+    padding-left: -10px;
+    font-family: sans-serif;
+    word-spacing: 16px;
+    margin-top: 20px;
+    margin: auto;
+    position: relative;
+    margin-left: 32px;
+    padding-bottom: -25px;
+}
+
+
+.nav li a:hover{
+    background-color:aliceblue;
+    color:#523A28;
+}
+
+
+.footer_element{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 200;
+    font-family: monospace;
+    font-size:  34px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 110px;
+    cursor: progress;
+}
+
+
+
+
+
+
+
+

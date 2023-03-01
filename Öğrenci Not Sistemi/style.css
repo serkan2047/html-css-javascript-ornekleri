@@ -1,0 +1,202 @@
+body{
+    margin: auto ;
+    position: relative;
+    
+}
+
+
+.title{
+    font-family: monospace;
+    font-size: 21px;
+    margin-left: 210px;
+    position: absolute;
+    margin-top:20px;
+}
+
+.title-2{
+    font-family: monospace;
+    font-size: 21px;
+    margin-left: 185px;
+    position: absolute;
+    margin-top:20px;
+}
+
+.title-3{
+    font-family: monospace;
+    font-size: 21px;
+    margin-left: 185px;
+    position: absolute;
+    margin-top:20px;
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    width: 650px;
+    height: 700px;
+    background-color:bisque;
+    border-radius: 25px;
+    margin-top: 20px;
+    /*display: none;*/
+}
+
+
+.box-1{
+     margin: auto;
+    position: absolute;
+    background-color: chocolate;
+    width: 580px;
+    height: 240px;
+    margin-top: 85px;
+    margin-left: 35px;
+    border-radius: 12px;
+}
+
+.box-2{
+    margin: auto;
+    position: absolute;
+    background-color: chocolate;
+    width: 580px;
+    height: 240px;
+    margin-top: 350px;
+    margin-left: 35px;
+    border-radius: 12px;
+}
+
+
+.vizebaslik{
+    font-family: monospace;
+    font-size: 21px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 115px;
+}
+
+.finalbaslik{
+    font-family: monospace;
+    font-size: 21px;
+    margin-left: 390px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.vize{
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 49px;
+    border-radius: 12px;
+}
+
+.final{
+     font-family: monospace;
+    font-size: 15px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 335px;
+    border-radius: 12px;
+}
+
+
+.hsp_btn{
+    font-family: fantasy;
+    font-size: 21px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: 140px;
+    border-radius: 12px;
+    color: chocolate;
+    background-color: aliceblue;
+}
+
+.hsp_btn:hover{
+    font-family: fantasy;
+    font-size: 21px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: 140px;
+    border-radius: 12px;
+    color: aliceblue;
+    background-color: chocolate;
+    transition: 0.4s;
+}
+
+.tmz_btn{
+    font-family:fantasy;
+    font-size: 21px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: 320px;
+    border-radius: 12px;
+    color: chocolate;
+    background-color: aliceblue;
+}
+
+
+.tmz_btn:hover{
+    font-family:fantasy;
+    font-size: 21px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: 320px;
+    border-radius: 12px;
+    color: aliceblue;
+    background-color: chocolate;
+    transition: 0.4s;
+}
+
+.ort{
+    font-family: monospace;
+    font-size: 21px;
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.sonuc{
+    font-family: monospace;
+    font-size: 21px;
+    margin-left: 255px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.harf{
+     font-family: monospace;
+    font-size: 21px;
+    margin-left: 401px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.ortalama{
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 45px;
+    border-radius: 12px;
+}
+
+.sonuc1{
+     font-family: monospace;
+    font-size: 12px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 210px;
+    border-radius: 12px;
+}
+
+.harfnotu{
+      font-family: monospace;
+    font-size: 12px;
+    margin-top: 120px;
+    position: absolute;
+    margin-left: 380px;
+    border-radius: 12px;
+}
+
+
+
+

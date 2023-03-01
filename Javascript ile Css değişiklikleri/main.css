@@ -1,0 +1,222 @@
+body{
+    background-color: 
+#151538
+;
+}
+.title{
+    color: aliceblue;
+}
+h2{
+    position: absolute;
+    left: 27%;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 650;
+    background-color: 
+#1a1719
+;
+    
+    padding: 15px;
+    border-radius: 21px;
+    box-shadow: aliceblue 0px 20px 30px -10px;
+}
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    left: 29%;
+    top: 40%;
+    position: absolute;
+    color: aliceblue;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #eb2636;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.button-53 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    left: 45%;
+    top: 40%;
+    position: absolute;
+    color: aliceblue;
+}
+
+.button-53:after {
+  content: "";
+  background-color: skyblue;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-53:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.button-54 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    left: 60%;
+    top: 40%;
+    position: absolute;
+    color: aliceblue;
+}
+
+.button-54:after {
+  content: "";
+  background-color: orangered;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-54:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+.button-55 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+    left: 41%;
+    top: 55%;
+    position: absolute;
+    color: aliceblue;
+}
+
+.button-55:after {
+  content: "";
+  background-color: #4632a8;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-55:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-55 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

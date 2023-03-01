@@ -1,0 +1,159 @@
+body{
+    background-color:#1e1e1f;
+
+}
+
+.container{
+    position: absolute;
+    width: 65%;
+    height: 47%;
+    margin-top: 220px;
+    background-color: #39393b;
+    margin-left: 260px;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+
+
+.text{
+    margin-left: 37px;
+    font-size: 17px;
+    background-color: #646469;
+    color: aliceblue;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+.text:focus{
+    color: cornsilk;
+    transition: 1s;
+    border: cornsilk solid 1px;
+}
+
+h2{
+    font-size: 31px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 240px;
+    z-index: 9999;
+    color: cornsilk;
+}
+
+.buton{
+    position: absolute;
+    margin-left: 460px;
+    font-size: 23px;
+    height: 45px;
+    margin-top: 280px;
+    border-radius: 8px;
+    color: cornsilk;
+    background-color: #1d1d1f;
+    cursor: pointer;
+}
+
+
+.buton:hover{
+    position: absolute;
+    margin-left: 460px;
+    font-size: 23px;
+    height: 45px;
+    margin-top: 280px;
+    border-radius: 8px;
+    color: black;
+    background-color: #727294;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+p{
+    color: cornsilk;
+    font-size: 21px;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+
+span{
+    background-color: black;
+    color: cornsilk;
+    border-radius: 5px;
+    
+    font-size: 21px;
+    position: absolute;
+    margin-left: 10px;
+    width: 45px;
+    text-align: center;
+    height: 26px;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #1c1817;
+    margin-left: 630px;
+    margin-top: 330px;
+    color: cornsilk;
+    border-radius: 21px;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #1c1817;
+}
+
+
+.box1{
+    
+    width: auto;
+    height: 60px;
+    position: absolute;
+    background-color: #1c1817;
+    margin-left: 720px;
+    margin-top: 330px;
+    color: cornsilk;
+    border-radius: 21px;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #1c1817;
+
+}
+
+
+.box2{
+    width: auto;
+    height: 60px;
+    position: absolute;
+    background-color: aquamarine;
+    margin-left: 850px;
+    margin-top: 330px;
+    color: cornsilk;
+    border-radius: 21px;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #1c1817;
+}
+
+
+.box3{
+    width: auto;
+    height: 60px;
+    position: absolute;
+    background-color: aquamarine;
+    margin-left: 680px;
+    margin-top: 420px;
+    color: cornsilk;
+    border-radius: 21px;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #1c1817;
+}
+
+
+

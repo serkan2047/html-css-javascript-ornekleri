@@ -1,0 +1,142 @@
+<html>
+<head>
+    <title>Öğrenci Not Sistemi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+    <button class="button" style="width: 400px;"><span>Öğrenci Not Sistemini Aç</span></button>
+    <div class="container" id="showup">
+        <h1 class="title">Öğrenci Not Sistemi</h1>    
+        <div class="box-1">
+            <h2 class="title-2">Öğrenci Not Girişi</h2>
+            <a class="vizebaslik">Vize</a>
+            <a class="finalbaslik">Final</a>
+            
+            <br><br>
+            <input type="text" class="vize" name="vize" id="vize">
+            <input type="text" class="final" name="final" id="final">
+            <input type="button" class="hsp_btn" value="Hesapla" onclick="ort()">
+            <input type="button" class="tmz_btn" value="Temzile" onclick="temizle()">
+        </div>
+        <div class="box-2">
+            <h2 class="title-3">Öğrenci Notları</h2>
+            <a class="ort" id="ortlama">Ortalama</a>
+            <a class="sonuc" id="ortalama">Sonuç</a>
+            <a class="harf">Harf Notu</a>
+            
+            <br><br>
+            <input type="text" class="ortalama" name="ortalama" id="ort">
+            
+            <input type="text" class="sonuc1" name="sonuc" id="snc">
+            
+            <input type="text" class="harfnotu" name="harfnotu" id="harf">
+            
+        </div>
+    </div>
+        
+        <script>
+   
+            
+            
+            
+            
+            function ort()
+            {
+                var vize=parseInt(document.getElementById("vize").value);
+                var final=parseInt(document.getElementById("final").value);
+                
+                if (vize>100 || vize<0 || final>100 || final<0){
+                    window.alert("girdiğiniz not veya notlar 0 ve 100 arasında olmalıdır")
+                }
+                
+                else {
+                document.getElementById("ort").value=(vize + final) / 2;
+                var ort = (vize + final) / 2;
+                
+                if (ort > 50)
+                    {
+                        document.getElementById("snc").value="Geçti";
+                    }
+                
+                if (ort < 50)
+                    {
+                        document.getElementById("snc").value="Kaldı";
+                    }
+            
+                    var harfnot;
+                  if (ort>=85 && ort<=100)
+                      {
+            harfnot='A';
+                          }
+        else if (ort>=70 && ort<85){
+            harfnot='B';
+            }
+        else if (ort>=55 && ort<70){
+            harfnot='C';
+            }
+        else if (ort>=45 && ort<55){
+            harfnot='D';
+        }
+        else if (ort>=0 && ort<45){
+            harfnot='E';
+        }
+                
+                document.getElementById("harf").value= harfnot;
+                }
+            }
+        
+                function temizle(){
+                    document.getElementById("ort").value=" ";
+                    document.getElementById("snc").value=" ";
+                    document.getElementById("harf").value=" ";
+                    document.getElementById("vize").value=" ";
+                    document.getElementById("final").value=" ";
+                } 
+        
+        </script>
+        
+    <style>
+        .button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+    </style>    
+    </body>
+    
+    
+</html>

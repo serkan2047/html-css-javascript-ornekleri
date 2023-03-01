@@ -1,0 +1,51 @@
+.vertical-menu {
+  width: 200px;
+
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+  height: 50px;
+  font-size: 21px;
+  border-radius: 21px;
+}
+
+.vertical-menu a:hover {
+  background-color: #007d4f; 
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+.vertical-menu a.active {
+  background-color: #007d4f; 
+  color: white;
+  padding: 21px;
+}
+
+
+label{
+    font-family: sans-serif;
+    margin-top: 50px!important;
+}
+
+.wrapper{
+    width: 200px;
+    height: 700px;
+    background-color: #007d4f;
+    border-radius: 21px;
+}
+
+
+.wrapper2{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    background-color: #c9c7c7;
+    border-radius: 21px;
+    margin-top: -700px;
+    margin-left: 280px;
+}

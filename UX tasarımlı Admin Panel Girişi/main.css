@@ -1,0 +1,177 @@
+body{
+    
+  background-color: #e0e0e0;
+}
+.container{
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 59px;
+
+
+border-radius: 32px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 12px #7d7d7d,
+             -6px -6px 12px #ffffff;
+    height: 400px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 100px;
+    
+}
+
+h2{
+    font-family:sans-serif;
+    margin-left: 67px;
+    color: #001f3f;
+    font-weight: normal;
+}
+
+.username{
+    width: 250px;
+    height: 45px;
+    margin-left: 63px;
+    margin-top: 45px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 12px #7d7d7d,
+             -6px -6px 12px #ffffff;
+    outline: none;
+    font-size: 16px;
+    border-color: aliceblue;
+    transition: 0.4s;
+    word-spacing: 3px;
+    
+}
+input::placeholder{
+    text-align: center;
+}
+.username:focus{
+   
+    border-radius: 45px;
+background: #e0e0e0;
+box-shadow:  -5px 5px 10px #001f3f,
+             -25px -25px 50px #ffffff;
+    transition: 0.4s;
+    word-spacing: 3px;
+    border-color: #001f3f;
+}
+
+input:focus::placeholder {
+  opacity: 0.5;
+transition: 0.4s;
+}
+
+
+.password{
+    width: 250px;
+    height: 45px;
+    margin-left: 63px;
+    margin-top: 60px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 12px #7d7d7d,
+             -6px -6px 12px #ffffff;
+    outline: none;
+    font-size: 16px;
+    border-color: aliceblue;
+    transition: 0.4s;
+    word-spacing: 3px;
+    
+}
+
+
+.password:focus{
+   
+    border-radius: 45px;
+background: #e0e0e0;
+box-shadow:  -5px 5px 10px #001f3f,
+             -25px -25px 50px #ffffff;
+    transition: 0.4s;
+    word-spacing: 3px;
+}
+
+
+button{
+    width: 250px;
+    height: 45px;
+    margin-left: 63px;
+    margin-top: 60px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 12px #7d7d7d,
+             -6px -6px 12px #ffffff;
+    outline: none;
+    font-size: 16px;
+    border-color: aliceblue;
+    transition: 0.4s;
+    word-spacing: 3px;
+    color: 001f3f;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 750;
+    letter-spacing: 1px;
+    
+}
+
+
+button:hover{
+   
+    border-radius: 45px;
+background: #e0e0e0;
+box-shadow:  5px 5px 5px #001f3f,
+             -25px -25px 50px #ffffff;
+    transition: 0.4s;
+    word-spacing: 3px;
+}
+  
+
+.dalga{
+     width: 250px;
+    height: 45px;
+    margin-left: 63px;
+    margin-top: 60px;
+    border-radius: 32px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 12px #7d7d7d,
+             -6px -6px 12px #ffffff;
+    outline: none;
+    font-size: 16px;
+    border-color: aliceblue;
+    transition: 0.4s;
+    word-spacing: 3px;
+    color: 001f3f;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 750;
+    letter-spacing: 1px;
+    border: 1px solid red;
+    position: absolute;
+}
+
+
+@keyframes dalgaefek
+{
+    from{
+        transform: translate(-50%, -50%) scale(0.2);
+        opacity: 1;
+    }
+    to{
+        transform: translate(-50%, -50%) scale(2);
+    }
+}
+
+
+button:hover ~ .dalga
+{
+    animation: dalgaefek 2s infinite linear;
+    animation-delay: 0.1s;
+}
+
+button:hover ~ .dalga
+{
+    animation: dalgaefek 2s infinite linear;
+    animation-delay: 0.2s;
+}
+
+
+
